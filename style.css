@@ -1,0 +1,34 @@
+body {
+	background-color: grey;
+}
+
+.flex {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#title {
+	font-weight: bold;
+	left: 300px;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 60px;
+}
+
+#result {
+	font-weight: bold;
+	font-size: 35px;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+#keyboard {
+	left: 20px;
+	border-radius: 10px;
+}
+
+#input {
+	top: 300px;
+	font-size: 20px;
+	max-height: 300px;
+  	max-width: 500px;
+}
